@@ -2,8 +2,12 @@
  * main.css 
  * Created: 8/2/18
  * */
-b{
+b {
   font-weight: 700;
+}
+p {
+  color: #fff;
+  font-size: 1rem;
 }
 
 #page-wrapper {
@@ -206,7 +210,7 @@ a {
   background: #434a52;
 }
 
-#ui-datepicker-div{
+#ui-datepicker-div {
   z-index: 20;
 }
 
@@ -344,7 +348,7 @@ input[type="submit"] {
   background-color: #3b4148;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
-  font-size: 0.8rem
+  font-size: 0.8rem;
 }
 
 .survey input[type="date"]:focus,
@@ -482,7 +486,6 @@ input[type="radio"]:checked ~ label {
 }
 
 /* Responsive */
-
 
 @media only screen and (max-width: 1024px) {
   #page-wrapper {
