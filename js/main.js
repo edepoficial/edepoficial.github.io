@@ -9,9 +9,3 @@ function ShowInput(){
 function HideInput(){
     input.style.display = 'none'
 }
-
-$(function(){
-    $('#birthday').datepicker()
-    $('#recojo-u-input input').datetimepicker()
-})
-
