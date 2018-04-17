@@ -199,12 +199,15 @@ a {
   width: 100%;
 }
 .uploadcare--widget__button_type_open {
-  background: #3b4148;
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  border-radius: 0;
+    background: #3b4148;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 0.75rem;
+    text-align: left;
 }
+
 .uploadcare--widget__button_type_open:focus,
 .uploadcare--widget__button_type_open:hover {
   background: #434a52;
